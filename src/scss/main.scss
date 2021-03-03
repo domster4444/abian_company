@@ -27,13 +27,17 @@
 
 //?4-LAYOUT   SHARED BIG COMPONENTS
 @import '4-layout/body-template';
+@import '4-layout/header';
 @import '4-layout/footer';
 @import '4-layout/sidebar';
 @import '4-layout/toolbar';
 
 //? 5-MODULES
-@import '5-modules/imggallery-section';
-@import '5-modules/videosection';
+@import '5-modules/ghostTag';
+@import '5-modules/feaTag';
+@import '5-modules/heroSection';
+@import '5-modules/serviceCard';
+@import '5-modules/serviceSection';
 
 //? 5-PAGES
 @import '6-pages/homepage';

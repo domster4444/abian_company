@@ -25,3 +25,27 @@
 //     @extend .lato_regular_base;
 //     font-size: 14px;
 // }
+
+// poppins Regular
+
+.poppins_base {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poppins_light_300 {
+  @extend .poppins_base;
+  font-weight: 300;
+}
+
+.poppins_regular_400 {
+  @extend .poppins_base;
+  font-weight: 400;
+}
+.poppins_medium_500 {
+  @extend .poppins_base;
+  font-weight: 500;
+}
+.poppins_semibold_600 {
+  @extend .poppins_base;
+  font-weight: 600;
+}
