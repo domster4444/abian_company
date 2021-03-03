@@ -30,3 +30,12 @@
 body {
   background-color: white;
 }
+
+// !remove blue background in mobile screen
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+::selection {
+  background-color: transparent;
+  color: transparent;
+}

@@ -10,7 +10,7 @@ export default function ServiceCard(props) {
 
         {/* -------------------------SVG---------------------  */}
 
-        <h4 className="poppins_light_300"> Rent A Room</h4>
+        <h4 className="poppins_light_300">{props.offername}</h4>
       </div>
     </>
   );
