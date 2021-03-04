@@ -379,7 +379,12 @@ template {
   user-select: none;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
+  overflow: hidden;
   background-color: white;
 }
 
