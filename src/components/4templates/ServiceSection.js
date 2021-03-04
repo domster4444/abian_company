@@ -2,10 +2,12 @@ import React from 'react';
 import ServiceCard from '../1atoms/ServiceCard';
 import serviceLogo1 from '../../img/serviceLogo/serviceLogo1.png';
 import serviceLogo2 from '../../img/serviceLogo/serviceLogo2.png';
+import serviceLogo3 from '../../img/serviceLogo/serviceLogo3.png';
+import serviceLogo4 from '../../img/serviceLogo/serviceLogo4.png';
+import serviceLogo5 from '../../img/serviceLogo/serviceLogo5.png';
+import serviceLogo6 from '../../img/serviceLogo/serviceLogo6.png';
 
 export default function ServiceSection() {
-  let serviceLogo = [serviceLogo1, serviceLogo2];
-
   return (
     <div className="containerCenter" id="serviceSection">
       <div className="contentBlock">
@@ -19,32 +21,29 @@ export default function ServiceSection() {
         <a href="https://google.com">
           <ServiceCard
             logo={serviceLogo2}
-            offername="Ambulance Service"
+            offername="Order Online"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
-            offername="Rent A Room"
+            logo={serviceLogo3}
+            offername="Book Appointment"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
-            offername="Rent A Room"
+            logo={serviceLogo4}
+            offername="Call Ambulance"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
-            offername="Rent A Room"
+            logo={serviceLogo5}
+            offername="School Software"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
-          <ServiceCard
-            logo={serviceLogo1}
-            offername="Rent A Room"
-          ></ServiceCard>
+          <ServiceCard logo={serviceLogo6} offername="Land Sale"></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard

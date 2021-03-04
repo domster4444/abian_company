@@ -9,8 +9,10 @@
     right: 45px;
     bottom: 95px;
   }
+
   transform: scaleY(0.9);
   opacity: 0;
+
   header {
     color: white;
     display: flex;
@@ -110,4 +112,7 @@
 .showMessageBox {
   transform: scaleY(1) !important;
   opacity: 1 !important;
+}
+.displayNone {
+  display: none;
 }

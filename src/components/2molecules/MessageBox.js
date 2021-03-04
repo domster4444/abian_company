@@ -13,12 +13,15 @@ export default function MessageBox() {
     let messageBox = document.getElementById('messageBox');
 
     chatIcon.addEventListener('click', () => {
-      messageBox.classList.toggle('showMessageBox');
+      messageBox.classList.toggle('displayNone');
+      setTimeout(function () {
+        messageBox.classList.toggle('showMessageBox');
+      }, 200);
     });
   });
   return (
     <div>
-      <div id="messageBox">
+      <div id="messageBox" className="displayNone">
         <header>
           <h1 className="poppins_regular_400">Abian Support Team</h1>
           <p className="poppins_regular_400">
