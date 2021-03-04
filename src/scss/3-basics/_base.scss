@@ -28,12 +28,13 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: white;
 }
 
 // !remove blue background in mobile screen
 a {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent !important;
 }
 ::selection {
   background-color: transparent;
