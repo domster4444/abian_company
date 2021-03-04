@@ -385,6 +385,7 @@ html {
 
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
   background-color: white;
 }
 
