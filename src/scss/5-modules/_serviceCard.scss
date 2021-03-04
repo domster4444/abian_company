@@ -9,9 +9,9 @@
   width: 13rem;
   height: 10.4rem;
   border-radius: $radius_serviceCard;
-  box-shadow: 0 0 0px 0px #f1f9ff;
-  background: white;
-  background: linear-gradient(0deg, #e9f6ff 55%, #fff 93%);
+  box-shadow: 0 0 0px 0px rgb(241, 249, 255);
+  background: $primary_white;
+  background: linear-gradient(0deg, #e9f6ff 55%, $primary_white 93%);
   transition: all 400ms ease-in-out;
   box-shadow: 0px 0px 5px 5px rgba(237, 240, 250, 0.5);
 

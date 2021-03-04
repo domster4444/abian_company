@@ -10,10 +10,10 @@
   margin-left: 50%;
   transform: translateX(-50%);
   background: transparent;
-  background: #dde9ff;
+  background: $royal_light_sky_peace;
 
   background: rgba(221, 233, 255, 0.35);
-  box-shadow: 0 8px 32px 0 #c3d9fb;
+  box-shadow: 0 8px 32px 0 $royal_shadow;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
@@ -24,7 +24,10 @@
   width: 32.5%;
   height: 200px;
   margin-right: 10px;
-  background: white;
+  background: $royal_sky_peace;
+  background-repeat: no-repeat;
+  background-position-x: 55px;
+  background-image: url(../img/blob/cardBgSlope.png);
   border-radius: 5px;
   counter-increment: carousel-cell;
 }
@@ -35,5 +38,5 @@
   text-align: center;
   line-height: 200px;
   font-size: 80px;
-  color: white;
+  color: $primary_white;
 }

@@ -10,17 +10,17 @@
   box-shadow: 0px 0px 8px 2px rgb(240, 244, 251);
   padding: 1rem 0.5rem;
   width: 21.6rem;
-  background: white;
+  background: $primary_white;
   margin: 1rem 1rem;
 
   &:hover {
-    background: linear-gradient(0deg, #e9f6ff 55%, #fff 93%);
+    background: linear-gradient(0deg, #e9f6ff 55%, $primary_white 93%);
     transform: scale(1.1);
   }
 
   h4 {
     margin-bottom: 0.5rem;
-    color: rgb(168, 165, 237);
+    color: $royal_blue_peace;
     font-size: 1.2rem;
   }
   h2 {
