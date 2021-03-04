@@ -425,6 +425,10 @@ a {
   width: 10rem;
 }
 
+.centerText {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -522,11 +526,118 @@ a:visited {
   color: #0065ff;
 }
 
-#ourPartnerSection {
+#backgroundBlob1 {
+  position: absolute;
+  top: 1rem;
+  z-index: -1;
+}
+
+.carousel {
+  margin-top: 3rem;
+  width: 62%;
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  background: #dde9ff;
+  background: rgba(221, 233, 255, 0.35);
+  box-shadow: 0 8px 32px 0 #c3d9fb;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+@media (max-width: 1150px) {
+  .carousel {
+    width: 100%;
+  }
+}
+
+.carousel-cell {
+  width: 32.5%;
+  height: 200px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.partnerCard {
+  max-width: 100%;
+  min-width: 22rem;
+  padding: 0.5rem 2rem;
+  height: 6.5rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 21px 1px #e7e5ff;
+  margin: 1rem;
+}
+
+@media (max-width: 1150px) {
+  .partnerCard {
+    margin: 0.5rem;
+  }
+}
+
+.partnerCard:hover {
+  transform: scale(1.1);
+}
+
+.partnerCard:hover img {
+  filter: grayscale(0);
+}
+
+.partnerCard img {
+  filter: grayscale(1);
+  height: 100%;
+}
+
+#partnerSectionMain {
+  margin-top: 7rem;
+  background-color: #f7f9ff;
+}
+
+#partnerSectionMain .ourPartnerSectionBg {
+  background-color: #f7f9ff;
+  padding-top: 5rem;
+}
+
+#partnerSectionMain .ourPartnerSectionBg h1 {
+  font-size: 2.8rem;
+}
+
+#partnerSectionMain .ourPartnerSectionBg h2 {
+  font-size: 1.8rem;
+  color: grey;
+}
+
+#partnerSectionMain #ourPartnerSection {
   text-align: center;
   background-color: #f7f9ff;
-  padding-left: 1.5rem;
   margin-top: 4rem;
+}
+
+#partnerSectionMain #ourPartnerSection .contentBlock {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+@media (max-width: 1150px) {
+  #partnerSectionMain #ourPartnerSection .contentBlock {
+    width: 100%;
+  }
 }
 
 .blueText {
@@ -564,6 +675,12 @@ a:visited {
 
 #additionalServiceCardContainer {
   flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  #additionalServiceCardContainer {
+    justify-content: center;
+  }
 }
 
 #AdditionalServiceSection {
@@ -704,6 +821,12 @@ a:visited {
 
 .displayNone {
   display: none;
+}
+
+#customerChat {
+  outline: none;
+  background: transparent;
+  border: none;
 }
 
 .ghostTag {

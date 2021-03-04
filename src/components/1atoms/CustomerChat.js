@@ -4,9 +4,9 @@ import bubbleChatLogo from '../../img/bubbleChat.png';
 export default function customerChat() {
   return (
     <>
-      <a href="#" id="customerChat">
+      <button id="customerChat" className="cursor">
         <img src={bubbleChatLogo} alt="customer support" />
-      </a>
+      </button>
     </>
   );
 }

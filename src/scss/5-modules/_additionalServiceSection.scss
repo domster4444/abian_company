@@ -1,5 +1,8 @@
 #additionalServiceCardContainer {
   flex-wrap: wrap;
+  @include media('<=tablet') {
+    justify-content: center;
+  }
 }
 #AdditionalServiceSection {
   margin-top: 2rem;
