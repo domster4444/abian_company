@@ -26,7 +26,9 @@
   // transition: all 0.5s ease-in-out;
   user-select: none;
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
   background-color: white;
