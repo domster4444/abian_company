@@ -35,7 +35,7 @@ body {
 }
 
 // !remove blue background in mobile screen
-a {
+* {
   -webkit-tap-highlight-color: transparent !important;
 }
 ::selection {
