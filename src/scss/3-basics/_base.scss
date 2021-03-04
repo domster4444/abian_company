@@ -35,12 +35,18 @@ body {
 }
 
 // !remove blue background in mobile screen
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
+}
 button,
 div {
   -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
 }
 a {
   -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
 }
 ::selection {
   background-color: transparent;

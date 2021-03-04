@@ -388,8 +388,20 @@ body {
   background-color: white;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
+}
+
+button,
+div {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
+}
+
 a {
   -webkit-tap-highlight-color: transparent !important;
+  -webkit-highlight: none;
 }
 
 ::selection {
