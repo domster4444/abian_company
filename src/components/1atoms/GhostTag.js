@@ -1,5 +1,11 @@
 import React from 'react';
 
+import { GhostTagStyle } from '../..//Styled/GhostTagStyle';
+
 export default function GhostTag() {
-  return <button className="ghostTag poppins_semibold_600">GHOST TAG</button>;
+  return (
+    <>
+      <GhostTagStyle className="poppins_semibold_600">GHOST TAG</GhostTagStyle>
+    </>
+  );
 }
