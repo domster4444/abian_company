@@ -7,12 +7,12 @@ export default function OurPartners() {
   return (
     <>
       <section id="partnerSectionMain" className=" ourPartnerSectionBg">
-        <div className=" centerText ourPartnerSectionBg">
+        <header className=" centerText ourPartnerSectionBg">
           <h1 className="poppins_light_300">Our Partners</h1>
           <h2 className="poppins_light_300">
             Leading insurers for your financial freedom
           </h2>
-        </div>
+        </header>
 
         <section id="ourPartnerSection">
           <div className="containerCenter">

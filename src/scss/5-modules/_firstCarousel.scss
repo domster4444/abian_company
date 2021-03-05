@@ -3,14 +3,13 @@
   width: 62%;
   border-radius: 2rem;
   padding: 1rem 1rem;
-
+  background: $royal_light_sky_peace;
   @include media('<=1150px') {
     width: 100%;
   }
   margin-left: 50%;
   transform: translateX(-50%);
   background: transparent;
-  background: $royal_light_sky_peace;
 
   background: rgba(221, 233, 255, 0.35);
   box-shadow: 0 8px 32px 0 $royal_shadow;
@@ -21,14 +20,26 @@
 }
 
 .carousel-cell {
+  position: relative;
+  img {
+    height: 5.8rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
   width: 32.5%;
-  height: 200px;
-  margin-right: 10px;
-  background: $royal_sky_peace;
+  @include media('<=750px') {
+    width: 80.5%;
+  }
+  height: 20rem;
+  margin-right: 1rem;
+  background: $primary_white;
+  color: $primary_white;
+
   background-repeat: no-repeat;
-  background-position-x: 55px;
+  background-position-x: 100%;
   background-image: url(../img/blob/cardBgSlope.png);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   counter-increment: carousel-cell;
 }
 
@@ -36,7 +47,25 @@
 .carousel-cell:before {
   display: block;
   text-align: center;
-  line-height: 200px;
-  font-size: 80px;
+  line-height: 20rem;
+  font-size: 8rem;
   color: $primary_white;
+}
+
+.carousel {
+  #firstCard {
+    background-color: rgb(112, 128, 250);
+  }
+  #secondCard {
+    background-color: rgb(79, 220, 149);
+  }
+  #thirdCard {
+    background-color: rgb(255, 152, 152);
+  }
+  #fourthCard {
+    background-color: rgb(60, 187, 218);
+  }
+  #fifthCard {
+    background-color: lightskyblue;
+  }
 }

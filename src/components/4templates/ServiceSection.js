@@ -9,7 +9,7 @@ import serviceLogo6 from '../../img/serviceLogo/serviceLogo6.png';
 
 export default function ServiceSection() {
   return (
-    <div className="containerCenter" id="serviceSection">
+    <section className="containerCenter" id="serviceSection">
       <div className="contentBlock">
         <a href="https://google.com">
           <ServiceCard
@@ -106,6 +106,6 @@ export default function ServiceSection() {
           ></ServiceCard>
         </a>
       </div>
-    </div>
+    </section>
   );
 }

@@ -126,3 +126,12 @@
   background: transparent;
   border: none;
 }
+
+#messageBox {
+  @include media('<=538px') {
+    transform: scale(0.7) !important;
+    right: -18%;
+
+    bottom: 15px;
+  }
+}

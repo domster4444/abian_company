@@ -9,9 +9,9 @@ import hand from '../../img/hand.png';
 export default function HeroSection() {
   return (
     <>
-      <div className="containerCenter" id="centerSingleBlock">
+      <section className="containerCenter" id="centerSingleBlock">
         <div id="heroSection" className="centerContainer">
-          <div id="leftBlock">
+          <article id="leftBlock">
             <h1 className="poppins_light_300">
               Let's find you
               <br />
@@ -23,8 +23,8 @@ export default function HeroSection() {
               <FeaTag logo={todo} />
               <FeaTag logo={hand} />
             </div>
-          </div>
-          <div id="rightBlock">
+          </article>
+          <article id="rightBlock">
             <div id="left">
               <GhostTag />
 
@@ -37,9 +37,9 @@ export default function HeroSection() {
             <div id="right">
               <img src={heroSectionIllustrator} alt="" />
             </div>
-          </div>
+          </article>
         </div>
-      </div>
+      </section>
     </>
   );
 }
