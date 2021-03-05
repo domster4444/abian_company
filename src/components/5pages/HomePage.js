@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Header from '../1atoms/Header';
 import HeroSection from '../4templates/HeroSection';
 import ServiceSection from '../4templates/ServiceSection';
 import AdditionalServiceSection from '../4templates/AdditionalServiceSection';
@@ -13,7 +12,6 @@ import FeatCarousel from '../1atoms/FeatCarousel';
 export default function Homepage() {
   return (
     <div id="homepage">
-      <Header></Header>
       <HeroSection></HeroSection>
       <ServiceSection></ServiceSection>
       <AdditionalServiceSection></AdditionalServiceSection>

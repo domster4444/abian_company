@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 export default function LoginPage() {
   return (
     <div id="loginPage">
       <div class="login-div">
         <div class="logo"></div>
-        <div class="title">LOGIN</div>
+        <div class="title">SIGNUP</div>
         <div class="sub-title">Abian Service</div>
         <div class="fields">
           <div class="username">
@@ -18,6 +17,16 @@ export default function LoginPage() {
             </svg>
             <input type="username" class="user-input" placeholder="username" />
           </div>
+          <div class="username">
+            <span style={{ fontSize: '3.5rem', color: 'rgb(153,153,153)' }}>
+              &nbsp;&nbsp;&nbsp;&#128241;&nbsp;&nbsp;
+            </span>
+            <input
+              type="number"
+              class="user-input"
+              placeholder="phone number"
+            />
+          </div>
           <div class="password">
             <svg fill="#999" viewBox="0 0 1024 1024">
               <path
@@ -28,10 +37,9 @@ export default function LoginPage() {
             <input type="password" class="pass-input" placeholder="password" />
           </div>
         </div>
-        <button class="signin-button">Login</button>
+        <button class="signin-button">Signup</button>
         <div class="link">
-          <Link to="/forgotpassword">Forgot password?</Link> or
-          <Link to="/signup">Sign up</Link>
+          <Link to="/login">Login?</Link>
         </div>
       </div>
     </div>

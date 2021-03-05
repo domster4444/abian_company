@@ -1,12 +1,20 @@
 #loginPage {
+  padding: 7rem 3rem;
   .login-div {
     width: 430px;
     height: 700px;
     padding: 60px 35px 35px 35px;
     border-radius: 40px;
-    background: #ecf0f3;
-
+    // background: #ecf0f3;
+    background: rgb(233, 254, 255);
+    background: linear-gradient(90deg, #fffffe 35%, #d9d9d9 100%);
+    margin-left: 50%;
+    transform: translateX(-50%);
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+    @include media('<=470px') {
+      width: 120vw;
+      border-radius: 0px;
+    }
   }
   .logo {
     background: url('../img/cl.png');
