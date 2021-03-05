@@ -9,7 +9,7 @@
 // @import '2-tools/animate';
 @import '2-tools/breakpoint';
 // @import '2-tools/flickity';
-// @import '2-tools/hint';
+@import '2-tools/hint';
 // @import '2-tools/hover';
 @import '2-tools/normalize';
 
@@ -34,13 +34,13 @@
 
 //? 5-MODULES
 @import '5-modules/backgroundBlob1';
-@import '5-modules/firstCarousel';
+@import '5-modules/firstCarousel'; //STYLED COMPO
 @import '5-modules/partnerCard';
 @import '5-modules/ourPartner';
 @import '5-modules/additionalServiceCard';
 @import '5-modules/additionalServiceSection';
 @import '5-modules/messageBox';
-@import '5-modules/ghostTag';
+// @import '5-modules/ghostTag';//StyledCOMPO
 @import '5-modules/feaTag';
 @import '5-modules/heroSection';
 @import '5-modules/serviceCard';

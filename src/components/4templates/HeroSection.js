@@ -32,7 +32,13 @@ export default function HeroSection() {
                 A commitment
                 <br /> to our customers
               </h3>
-              <button className="blueBtn cursor">Know more</button>
+
+              <button
+                className="blueBtn cursor hint--right hint--rounded hint--bounce"
+                aria-label="Thank you!"
+              >
+                Know more
+              </button>
             </div>
             <div id="right">
               <img src={heroSectionIllustrator} alt="" />

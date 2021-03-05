@@ -1,8 +1,6 @@
 //? use :  Hello Sir, <span class="hint--right hint--rounded hint--bounce" aria-label="Thank you!">hover over me.</span>
 
-
-
-// ---------------------------------------------------- 
+// ----------------------------------------------------
 /* //? use :  Hello Sir, <span class="hint--right hint--rounded hint--bounce" aria-label="Thank you!">hover over me.</span> */
 
 /*! Hint.css - v2.6.0 - 2019-04-27
@@ -30,7 +28,7 @@
  * Classes added:
  * 	1) hint
  */
- [class*='hint--'] {
+[class*='hint--'] {
   position: relative;
   display: inline-block;
   /**
@@ -76,10 +74,10 @@
   z-index: 1000001;
 }
 [class*='hint--']:after {
-  background: #383838;
+  background: $royal_tooltip_bg;
   color: white;
   padding: 8px 10px;
-  font-size: 12px;
+  font-size: 2.1rem;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 12px;
   white-space: nowrap;
@@ -113,35 +111,35 @@
    * set default color for tooltip arrows
    */
 .hint--top-left:before {
-  border-top-color: #383838;
+  border-top-color: $royal_tooltip_bg;
 }
 
 .hint--top-right:before {
-  border-top-color: #383838;
+  border-top-color: $royal_tooltip_bg;
 }
 
 .hint--top:before {
-  border-top-color: #383838;
+  border-top-color: $royal_tooltip_bg;
 }
 
 .hint--bottom-left:before {
-  border-bottom-color: #383838;
+  border-bottom-color: $royal_tooltip_bg;
 }
 
 .hint--bottom-right:before {
-  border-bottom-color: #383838;
+  border-bottom-color: $royal_tooltip_bg;
 }
 
 .hint--bottom:before {
-  border-bottom-color: #383838;
+  border-bottom-color: $royal_tooltip_bg;
 }
 
 .hint--left:before {
-  border-left-color: #383838;
+  border-left-color: $royal_tooltip_bg;
 }
 
 .hint--right:before {
-  border-right-color: #383838;
+  border-right-color: $royal_tooltip_bg;
 }
 
 /**
