@@ -1157,7 +1157,7 @@ a {
   border: none;
   border-radius: 0.4rem;
   color: white;
-  background-color: #0065ff;
+  background: linear-gradient(45deg, lightblue 0%, blue 100%) !important;
   height: 3.6rem;
   width: 10rem;
 }

@@ -22,7 +22,11 @@
   border: none;
   border-radius: 0.4rem;
   color: $primary_white;
-  background-color: $royal_blue;
+  background: linear-gradient(
+    45deg,
+    $primary_lightblue 0%,
+    $primary_blue 100%
+  ) !important;
   height: 3.6rem;
   width: 10rem;
 }
