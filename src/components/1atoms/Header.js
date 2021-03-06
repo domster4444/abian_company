@@ -7,16 +7,16 @@ export default function Header() {
     <>
       <header id="navBar">
         <nav>
-          <a href="/">
+          <Link to="/">
             <div id="logoBlock">
               <img src={logo} alt="" />
             </div>
-          </a>
+          </Link>
           <div id="menuBlock">
             <ul>
-              <a href="/">
+              <Link to="/">
                 <li className="cursor poppins_regular_400">Home</li>
-              </a>
+              </Link>
               <Link to="">
                 <li className="cursor poppins_regular_400">Services</li>
               </Link>
