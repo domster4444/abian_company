@@ -1268,6 +1268,10 @@ a {
   color: transparent;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .flexContainer {
   display: flex;
   justify-content: center;
@@ -1400,6 +1404,38 @@ a:visited {
   padding: 0.5rem 1rem;
   border: 1px solid #0065ff;
   color: #0065ff;
+}
+
+#messageSection::-webkit-scrollbar {
+  width: 12px;
+  background-color: #eff1f5;
+}
+
+#messageSection::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+#messageSection::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: lightsteelblue;
+  border: 2px solid #eff1f5;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #eff1f5;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: lightsteelblue;
+  border: 2px solid #eff1f5;
 }
 
 #backgroundBlob1 {
