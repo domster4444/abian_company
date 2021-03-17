@@ -1406,6 +1406,126 @@ a:visited {
   color: #0065ff;
 }
 
+#doubtSectionMain {
+  padding-top: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+#doubtSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #doubtSection {
+    width: 75%;
+  }
+}
+
+#doubtSection #leftSection {
+  padding: 10rem;
+}
+
+#doubtSection #leftSection h4 {
+  font-size: 4rem;
+}
+
+#doubtSection #rightSection .upperBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1100px) {
+  #doubtSection #rightSection .upperBlock #card1 {
+    margin-top: -3rem;
+  }
+  #doubtSection #rightSection .upperBlock #card2 {
+    margin-top: 3rem;
+  }
+  #doubtSection #rightSection .upperBlock #card3 {
+    margin-top: -3rem;
+  }
+  #doubtSection #rightSection .upperBlock #card4 {
+    margin-top: 3rem;
+  }
+}
+
+#doubtSection #rightSection .upperBlock #card1 {
+  border-left: 4px solid #2d3cd9;
+}
+
+#doubtSection #rightSection .upperBlock #card1 h4 {
+  color: #2d3cd9;
+}
+
+#doubtSection #rightSection .upperBlock #card2 {
+  border-left: 4px solid #0bbdf2;
+}
+
+#doubtSection #rightSection .upperBlock #card2 h4 {
+  color: #0bbdf2;
+}
+
+#doubtSection #rightSection .upperBlock #card3 {
+  border-left: 4px solid #47d990;
+}
+
+#doubtSection #rightSection .upperBlock #card3 h4 {
+  color: #47d990;
+}
+
+#doubtSection #rightSection .upperBlock #card4 {
+  border-left: 4px solid #ffc400;
+}
+
+#doubtSection #rightSection .upperBlock #card4 h4 {
+  color: #ffc400;
+}
+
+#doubtSection #rightSection .upperBlock #card1 h4,
+#doubtSection #rightSection .upperBlock #card2 h4,
+#doubtSection #rightSection .upperBlock #card3 h4,
+#doubtSection #rightSection .upperBlock #card4 h4 {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+#doubtSection #rightSection .upperBlock #card1 p,
+#doubtSection #rightSection .upperBlock #card2 p,
+#doubtSection #rightSection .upperBlock #card3 p,
+#doubtSection #rightSection .upperBlock #card4 p {
+  margin-top: 0.6rem;
+  font-size: 1.5rem;
+}
+
+#doubtSection #rightSection .upperBlock .doutCards {
+  box-shadow: 0 6px 16px rgba(52, 105, 203, 0.16);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  color: black;
+  background-color: white;
+  height: 18.7rem;
+  width: 20.7rem;
+}
+
+#doubtSection #rightSection .upperBlock .doutCards img {
+  height: 4rem;
+}
+
 #messageSection::-webkit-scrollbar {
   width: 12px;
   background-color: #eff1f5;
@@ -1468,6 +1588,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .carousel-cell {
+  padding-top: 1rem;
+  padding-left: 1rem;
   position: relative;
   width: 32.5%;
   height: 20rem;
@@ -1481,11 +1603,19 @@ body::-webkit-scrollbar-thumb {
   counter-increment: carousel-cell;
 }
 
-.carousel-cell img {
+.carousel-cell h1 {
+  margin-top: 4rem;
+}
+
+.carousel-cell .mainCarouselIcons {
   height: 5.8rem;
   position: absolute;
   top: 1rem;
   right: 1rem;
+}
+
+.carousel-cell .subCarouselIcons {
+  height: 3rem;
 }
 
 @media (max-width: 750px) {

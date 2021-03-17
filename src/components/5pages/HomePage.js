@@ -9,17 +9,19 @@ import MessageBox from '../2molecules/MessageBox';
 import BackgroundBlob1 from '../1atoms/BackgroundBlob1';
 
 import FeatCarousel from '../1atoms/FeatCarousel';
+import DoubtSection from '../4templates/DoubtSection';
 export default function Homepage() {
   return (
     <div id="homepage">
+      <BackgroundBlob1 />
       <HeroSection></HeroSection>
       <ServiceSection></ServiceSection>
       <AdditionalServiceSection></AdditionalServiceSection>
       <FeatCarousel />
+      <DoubtSection />
       <OurPartner />
       <MessageBox />
       <CustomerChat></CustomerChat>
-      <BackgroundBlob1 />
     </div>
   );
 }

@@ -1,0 +1,95 @@
+#doubtSectionMain {
+  padding-top: 12rem;
+  @include flexContainer;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+#doubtSection {
+  width: 100%;
+  @include media('>=tablet') {
+    width: 75%;
+  }
+
+  @include flexContainer;
+  justify-content: center;
+  align-items: center;
+
+  #leftSection {
+    padding: 10rem;
+    h4 {
+      font-size: 4rem;
+    }
+  }
+  #rightSection {
+    .upperBlock {
+      @include flexContainer;
+      flex-wrap: wrap;
+      @include media('>=1100px') {
+        #card1 {
+          margin-top: -3rem;
+        }
+        #card2 {
+          margin-top: 3rem;
+        }
+        #card3 {
+          margin-top: -3rem;
+        }
+        #card4 {
+          margin-top: 3rem;
+        }
+      }
+      #card1 {
+        h4 {
+          color: #2d3cd9;
+        }
+        border-left: 4px solid #2d3cd9;
+      }
+      #card2 {
+        h4 {
+          color: #0bbdf2;
+        }
+
+        border-left: 4px solid #0bbdf2;
+      }
+      #card3 {
+        h4 {
+          color: rgb(71, 217, 144);
+        }
+        border-left: 4px solid rgb(71, 217, 144);
+      }
+      #card4 {
+        h4 {
+          color: rgb(255, 196, 0);
+        }
+        border-left: 4px solid rgb(255, 196, 0);
+      }
+      #card1,
+      #card2,
+      #card3,
+      #card4 {
+        h4 {
+          margin-top: 1rem;
+          font-size: 1.7rem;
+        }
+        p {
+          margin-top: 0.6rem;
+          font-size: 1.5rem;
+        }
+      }
+      .doutCards {
+        img {
+          height: 4rem;
+        }
+
+        box-shadow: 0 6px 16px rgba(52, 105, 203, 0.16);
+        padding: 2rem;
+        border-radius: 1rem;
+        margin: 2rem;
+        color: black;
+        background-color: white;
+        height: 18.7rem;
+        width: 20.7rem;
+      }
+    }
+  }
+}

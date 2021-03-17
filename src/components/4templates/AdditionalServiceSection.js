@@ -6,17 +6,29 @@ export default function AdditionalService() {
     <section id="AdditionalServiceSection">
       <header className="containerCenter">
         <div className="contentBlock">
-          <h1 className="blueText poppins_semibold_500">ALSO BUY</h1>
+          <h1 className="blueText poppins_semibold_500">CORE GOAL</h1>
         </div>
       </header>
 
       <div className="containerCenter">
         <div className="contentBlock " id="additionalServiceCardContainer">
-          <AdditionalServiceCard />
-          <AdditionalServiceCard />
-          <AdditionalServiceCard />
-          <AdditionalServiceCard />
-          <AdditionalServiceCard />
+          <AdditionalServiceCard title="Usage" desc="Quick ‘n’ Easy" />
+          <AdditionalServiceCard
+            title="User Friendly"
+            desc="Easy To Use Platform"
+          />
+          <AdditionalServiceCard
+            title="Fast & Reliable"
+            desc="Get Your Work Done Faster"
+          />
+          <AdditionalServiceCard
+            title="Modern Interface"
+            desc="Modern Solution"
+          />
+          <AdditionalServiceCard
+            title="Elegant UI"
+            desc="Beautiful User Interface"
+          />
         </div>
       </div>
     </section>

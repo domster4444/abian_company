@@ -20,12 +20,21 @@
 }
 
 .carousel-cell {
+  h1 {
+    margin-top: 4rem;
+  }
+
+  padding-top: 1rem;
+  padding-left: 1rem;
   position: relative;
-  img {
+  .mainCarouselIcons {
     height: 5.8rem;
     position: absolute;
     top: 1rem;
     right: 1rem;
+  }
+  .subCarouselIcons {
+    height: 3rem;
   }
   width: 32.5%;
   @include media('<=750px') {
