@@ -1,0 +1,38 @@
+#groupCompaniesListSection {
+  #groupCompaniesListSection {
+    @include flex(space-between, center);
+
+    @include media('<=809px') {
+      @include flex(center, center);
+    }
+    padding: 3rem;
+
+    // -->overlapped
+    // -->
+
+    #leftSection {
+    }
+    #rightSection {
+      img {
+        height: 5rem;
+      }
+      .companyCard {
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
+      @include flex(center, center);
+    }
+    .companyCard {
+      font-size: 2.8rem;
+      @include flex(center, center);
+      align-items: center;
+      height: 7rem;
+    }
+  }
+}
+
+#groupCompaniesListSection #groupCompaniesListSection {
+  @include media('<=1588px') {
+    width: 90%;
+  }
+}

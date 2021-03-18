@@ -13,3 +13,9 @@
 @mixin transition15 {
   transition: all 0.15s ease-in-out 0s;
 }
+@mixin flex($a, $b) {
+  display: flex;
+  justify-content: $a;
+  align-items: $b;
+  flex-wrap: wrap;
+}

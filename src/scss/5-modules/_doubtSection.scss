@@ -1,26 +1,41 @@
 #doubtSectionMain {
+  position: relative;
   padding-top: 12rem;
   @include flexContainer;
   justify-content: center;
   padding-bottom: 3rem;
+  svg {
+    fill: rgba(255, 85, 118, 0.5);
+  }
 }
+
+#doubtSection_blob {
+  top: 10rem;
+  z-index: -1;
+  left: -10rem;
+  position: absolute;
+}
+
 #doubtSection {
   width: 100%;
   @include media('>=tablet') {
-    width: 75%;
+    width: 60% !important;
   }
 
   @include flexContainer;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   #leftSection {
-    padding: 10rem;
+    position: relative;
+    z-index: 1;
     h4 {
       font-size: 4rem;
     }
   }
   #rightSection {
+    position: relative;
+    z-index: 1;
     .upperBlock {
       @include flexContainer;
       flex-wrap: wrap;
@@ -93,3 +108,16 @@
     }
   }
 }
+
+// --BLOB
+
+/* The blob: Basic positioning and a transition with the same duration as the JS interval */
+#blob {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  transform-origin: 50% 50%;
+  transition: all 6s linear;
+}
+
+// --BLOB

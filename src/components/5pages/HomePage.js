@@ -10,6 +10,9 @@ import BackgroundBlob1 from '../1atoms/BackgroundBlob1';
 
 import FeatCarousel from '../1atoms/FeatCarousel';
 import DoubtSection from '../4templates/DoubtSection';
+import GetTheAbianAppSection from '../4templates/GetTheAbianApp';
+import GroupCompaniesListSection from '../4templates/GroupCompaniesListSection';
+
 export default function Homepage() {
   return (
     <div id="homepage">
@@ -19,6 +22,10 @@ export default function Homepage() {
       <AdditionalServiceSection></AdditionalServiceSection>
       <FeatCarousel />
       <DoubtSection />
+      <GetTheAbianAppSection />
+
+      <GroupCompaniesListSection />
+
       <OurPartner />
       <MessageBox />
       <CustomerChat></CustomerChat>
