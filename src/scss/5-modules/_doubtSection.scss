@@ -5,7 +5,7 @@
   justify-content: center;
   padding-bottom: 3rem;
   svg {
-    fill: rgba(255, 85, 118, 0.5);
+    fill: url(#MyGradient);
   }
 }
 
@@ -92,6 +92,10 @@
         }
       }
       .doutCards {
+        animation-name: float;
+        animation-duration: 3.8s;
+        animation-iteration-count: infinite;
+        transition: all 3.8s;
         img {
           height: 4rem;
         }

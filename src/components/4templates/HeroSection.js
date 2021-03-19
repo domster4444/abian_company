@@ -6,6 +6,8 @@ import heroSectionIllustrator from '../../img/illustrators/heroSectionIllustrato
 import todo from '../../img/todo.png';
 import hand from '../../img/hand.png';
 
+import VideoModalBtn from '../1atoms/VideoModalBtn';
+
 export default function HeroSection() {
   return (
     <>
@@ -39,6 +41,7 @@ export default function HeroSection() {
               >
                 Know more
               </button>
+              <VideoModalBtn />
             </div>
             <div id="right">
               <img src={heroSectionIllustrator} alt="" />

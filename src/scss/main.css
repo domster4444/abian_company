@@ -1273,6 +1273,18 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 .flexContainer {
   display: flex;
   justify-content: center;
@@ -1488,12 +1500,26 @@ a:visited {
 }
 
 #modal-btn {
-  background-color: slategray;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url(../img/btns/videoBtn.png);
   outline: none;
   border: none;
-  color: white;
-  padding: 1rem;
+  margin-top: 2.3rem !important;
+  height: 4rem;
+  width: 4rem;
   border-radius: 2rem;
+}
+
+#modal-btn:hover {
+  transform: scale(1.1);
+}
+
+#modal-btn:active {
+  transform: scale(1.2);
 }
 
 :root {
@@ -1768,6 +1794,10 @@ a:visited {
 }
 
 #getAbianAppSectionContainer #getAbianAppSection #rightSection {
+  animation-name: float;
+  animation-duration: 3.8s;
+  animation-iteration-count: infinite;
+  transition: all 3.8s;
   width: 75rem;
   height: 51rem;
   position: relative;
@@ -1847,7 +1877,7 @@ a:visited {
 }
 
 #doubtSectionMain svg {
-  fill: rgba(255, 85, 118, 0.5);
+  fill: url(#MyGradient);
 }
 
 #doubtSection_blob {
@@ -1959,6 +1989,10 @@ a:visited {
 }
 
 #doubtSection #rightSection .upperBlock .doutCards {
+  animation-name: float;
+  animation-duration: 3.8s;
+  animation-iteration-count: infinite;
+  transition: all 3.8s;
   box-shadow: 0 6px 16px rgba(52, 105, 203, 0.16);
   padding: 2rem;
   border-radius: 1rem;
@@ -2462,6 +2496,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 #heroSection #rightBlock #right img {
+  animation-name: float;
+  animation-duration: 3.8s;
+  animation-iteration-count: infinite;
+  transition: all 3.8s;
   height: 30rem;
 }
 

@@ -53,6 +53,10 @@
     }
     #right {
       img {
+        animation-name: float;
+        animation-duration: 3.8s;
+        animation-iteration-count: infinite;
+        transition: all 3.8s;
         height: 30rem;
       }
     }

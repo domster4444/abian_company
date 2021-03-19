@@ -105,6 +105,10 @@
       margin-top: 4rem;
     }
     #rightSection {
+      animation-name: float;
+      animation-duration: 3.8s;
+      animation-iteration-count: infinite;
+      transition: all 3.8s;
       width: 75rem;
       height: 51rem;
       @include media('<=2900px') {
