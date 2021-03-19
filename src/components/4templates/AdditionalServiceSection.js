@@ -1,5 +1,6 @@
 import React from 'react';
 import AdditionalServiceCard from '../1atoms/AdditionalServiceCard';
+import VideoModalBtn from '../1atoms/VideoModalBtn';
 
 export default function AdditionalService() {
   return (
@@ -31,6 +32,7 @@ export default function AdditionalService() {
           />
         </div>
       </div>
+      <VideoModalBtn />
     </section>
   );
 }

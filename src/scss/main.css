@@ -1242,6 +1242,7 @@ html {
 }
 
 body {
+  position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
   background-color: white;
@@ -1406,6 +1407,170 @@ a:visited {
   color: #0065ff;
 }
 
+#mainFooter {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+  background-color: black;
+}
+
+#mainFooter .greyBox {
+  margin: 4rem 1rem 0rem 1rem;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 90rem;
+  background-color: #292929;
+}
+
+@media (max-width: 1000px) {
+  #mainFooter .greyBox {
+    width: 90%;
+  }
+}
+
+#mainFooter h1 {
+  margin-left: 25%;
+  font-size: 2.7rem;
+}
+
+#mainFooter footer {
+  padding-top: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#mainFooter footer section {
+  position: relative;
+  margin: 3rem 8rem 0rem 8rem;
+}
+
+@media (max-width: 979px) {
+  #mainFooter footer section {
+    margin: 3rem 12rem 0rem 12rem;
+  }
+}
+
+#mainFooter footer section .logo {
+  position: absolute;
+  top: -1rem;
+  left: -5rem;
+  font-size: 3.5rem;
+}
+
+#mainFooter footer section .logo img {
+  width: 3.7rem;
+  height: 4.1rem;
+}
+
+#mainFooter footer section a {
+  color: white;
+}
+
+#mainFooter footer section ul li {
+  margin-top: 1rem;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+#mainFooter footer section ul li:hover {
+  text-decoration: underline;
+}
+
+#mainFooter footer section h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+#modal-btn {
+  background-color: slategray;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+:root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.modal-footer {
+  background: var(--modal-color);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.close {
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #groupCompaniesListSection #groupCompaniesListSection {
   display: flex;
   justify-content: space-between;
@@ -1415,6 +1580,15 @@ a:visited {
 }
 
 @media (max-width: 809px) {
+  #groupCompaniesListSection #groupCompaniesListSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1000px) {
   #groupCompaniesListSection #groupCompaniesListSection {
     display: flex;
     justify-content: center;
@@ -1966,6 +2140,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #partnerSectionMain {
+  padding-bottom: 5rem;
   background-color: #f7f9ff;
 }
 

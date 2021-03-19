@@ -5,6 +5,9 @@
     @include media('<=809px') {
       @include flex(center, center);
     }
+    @include media('<=1000px') {
+      @include flex(center, center);
+    }
     padding: 3rem;
 
     // -->overlapped

@@ -12,10 +12,13 @@ import FeatCarousel from '../1atoms/FeatCarousel';
 import DoubtSection from '../4templates/DoubtSection';
 import GetTheAbianAppSection from '../4templates/GetTheAbianApp';
 import GroupCompaniesListSection from '../4templates/GroupCompaniesListSection';
-
+import Footer from '../4templates/Footer';
+import VideoModal from '../2molecules/VideoModal.js';
 export default function Homepage() {
   return (
     <div id="homepage">
+      {/* //Video modal should be at top */}
+      <VideoModal></VideoModal>
       <BackgroundBlob1 />
       <HeroSection></HeroSection>
       <ServiceSection></ServiceSection>
@@ -24,11 +27,11 @@ export default function Homepage() {
       <DoubtSection />
       <GetTheAbianAppSection />
 
-      <GroupCompaniesListSection />
-
       <OurPartner />
       <MessageBox />
       <CustomerChat></CustomerChat>
+      <GroupCompaniesListSection />
+      <Footer></Footer>
     </div>
   );
 }
