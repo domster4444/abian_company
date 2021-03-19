@@ -49,10 +49,10 @@ export default function VideoModal() {
 
   return (
     <>
-      <div id="my-modal" class="modal">
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close">&times;</span>
+      <div id="my-modal" className="modal">
+        <div className="modal-content">
+          <div className="modal-header">
+            <span className="close">&times;</span>
 
             <div id="modalBody">
               <video id="myVideo" controls>

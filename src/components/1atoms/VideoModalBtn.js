@@ -3,7 +3,7 @@ import React from 'react';
 export default function VideoModalBtn() {
   return (
     <>
-      <button id="modal-btn" class="button cursor"></button>
+      <button id="modal-btn" className="button cursor"></button>
     </>
   );
 }
