@@ -1,23 +1,25 @@
 :root {
   --modal-duration: 1s;
-  --modal-color: #428bca;
+  --modal-color: transparent;
 }
 
 .modal {
+  overflow-x: hidden !important;
+
   display: none;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
   margin: 10% auto;
-  width: 60%;
+  width: 50%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
@@ -30,20 +32,17 @@
 
 .modal-header {
   background: var(--modal-color);
-  padding: 15px;
   color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
 .modal-body {
-  padding: 10px 20px;
   background: #fff;
 }
 
 .modal-footer {
   background: var(--modal-color);
-  padding: 10px;
   color: #fff;
   text-align: center;
   border-bottom-left-radius: 5px;
@@ -51,15 +50,20 @@
 }
 
 .close {
-  color: #ccc;
+  margin-top: -2rem;
+  border-radius: 50%;
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  background: black;
+  position: relative;
+  z-index: 10000;
   float: right;
   font-size: 30px;
-  color: #fff;
+  color: white;
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -70,5 +74,43 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+//?Copied Code..
+#modalBody {
+  position: relative;
+  video {
+    margin-top: 6rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    @include media('>=877px') {
+      height: 28.5rem;
+    }
+
+    @include media('<=878px') {
+      margin-top: 5rem;
+      height: 22.3rem;
+    }
+    @include media('<=861px') {
+      margin-top: 3rem;
+      height: 15.75rem;
+    }
+    @include media('<=658px') {
+      height: 14.5rem;
+    }
+
+    position: absolute;
+    z-index: 1;
+  }
+  img {
+    position: absolute;
+    @include media('>=880px') {
+      height: 50rem;
+    }
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 }

@@ -1,4 +1,9 @@
 .partnerCard {
+  @include media('<=tablet') {
+    max-width: 30%;
+    min-width: 02rem;
+    height: 3.5rem;
+  }
   max-width: 100%;
   min-width: 22rem;
   padding: 0.5rem 2rem;
@@ -17,10 +22,8 @@
     transform: scale(1.1);
   }
   &:hover img {
-    filter: grayscale(0);
   }
   img {
-    filter: grayscale(1);
     height: 100%;
   }
 }

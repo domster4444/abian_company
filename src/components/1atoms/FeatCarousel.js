@@ -17,10 +17,10 @@ export default function FeatCarousel() {
   return (
     <>
       <div
-        class="carousel"
+        className="carousel"
         data-flickity='{ "freeScroll": true, "wrapAround": true,"prevNextButtons": false,"autoPlay": 1500 }'
       >
-        <div class="carousel-cell" id="firstCard">
+        <div className="carousel-cell" id="firstCard">
           <img className="mainCarouselIcons" src={carouselIcon1} alt="" />
           <img className="subCarouselIcons" src={subCarouselIcon1} alt="" />
 
@@ -30,7 +30,7 @@ export default function FeatCarousel() {
             Home
           </h1>
         </div>
-        <div class="carousel-cell" id="secondCard">
+        <div className="carousel-cell" id="secondCard">
           <img className="mainCarouselIcons" src={carouselIcon2} alt="" />
           <img className="subCarouselIcons" src={subCarouselIcon2} alt="" />
           <h1>
@@ -38,7 +38,7 @@ export default function FeatCarousel() {
             <br /> With Low Price
           </h1>
         </div>
-        <div class="carousel-cell" id="thirdCard">
+        <div className="carousel-cell" id="thirdCard">
           <img className="mainCarouselIcons" src={carouselIcon3} alt="" />
           <img className="subCarouselIcons" src={subCarouselIcon3} alt="" />
           <h1>
@@ -46,12 +46,12 @@ export default function FeatCarousel() {
             <br /> Support On Demand
           </h1>
         </div>
-        <div class="carousel-cell" id="fourthCard">
+        <div className="carousel-cell" id="fourthCard">
           <img className="mainCarouselIcons" src={carouselIcon4} alt="" />
           <img className="subCarouselIcons" src={subCarouselIcon4} alt="" />
           <h1>Secure & Trust Worthy</h1>
         </div>
-        <div class="carousel-cell" id="fifthCard">
+        <div className="carousel-cell" id="fifthCard">
           <img className="mainCarouselIcons" src={carouselIcon5} alt="" />
           <img className="subCarouselIcons" src={subCarouselIcon5} alt="" />
           <h1>50+ Services To Solve Your Problems</h1>

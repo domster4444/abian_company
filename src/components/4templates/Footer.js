@@ -16,21 +16,21 @@ export default function Footer() {
 
             <h3 className="poppins_medium_500"> General</h3>
             <ul>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Log In</li>
               </a>
 
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Offers</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Register</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Services</li>
               </a>
 
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">About Us</li>
               </a>
             </ul>
@@ -41,23 +41,23 @@ export default function Footer() {
             </div>
             <h3 className="poppins_medium_500"> About Us</h3>
             <ul>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Plans</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Team</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Goals</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Policies</li>
               </a>
 
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Journey</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Services</li>
               </a>
             </ul>
@@ -69,31 +69,31 @@ export default function Footer() {
             <h3 className="poppins_medium_500"> Services</h3>
 
             <ul>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Rent House Platform </li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Food Ordering Platform</li>
               </a>
 
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">
                   Direct Land Sale Platform{' '}
                 </li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Urgent Ambulance Call</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Online Admission Platform</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">
                   Online Hospital Appointment
                 </li>
               </a>
 
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">
                   School Management Software
                 </li>
@@ -106,22 +106,22 @@ export default function Footer() {
             </div>
             <h3 className="poppins_medium_500"> Contacts</h3>
             <ul>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Chat Live</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Our Advisors</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Care Support</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Email Contacts</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300"> Technical Support</li>
               </a>
-              <a href="#">
+              <a href="https://google.com">
                 <li className="poppins_light_300">Employees Contacts</li>
               </a>
             </ul>
