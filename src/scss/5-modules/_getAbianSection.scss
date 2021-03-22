@@ -5,11 +5,7 @@
   padding-bottom: 5rem;
   @include flex(center, center);
   #getAbianAppSection {
-    @include media('<=1596px') {
-      width: 90%;
-    }
     @include media('<=1270px') {
-      width: 100vw;
       @include flex(center, center);
     }
     @include flex(space-between, center);

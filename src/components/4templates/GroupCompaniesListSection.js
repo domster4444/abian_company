@@ -1,6 +1,6 @@
 import React from 'react';
-import firstGroupCompany from '../../img/partner/partner1.png';
-import secondGroupCompany from '../../img/partner/partner2.png';
+import firstGroupCompany from '../../img/partner/partner1.svg';
+import secondGroupCompany from '../../img/partner/partner2.svg';
 export default function GroupCompaniesListSection() {
   return (
     <section className="containerCenter" id="groupCompaniesListSection">

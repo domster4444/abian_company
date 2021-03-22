@@ -17,8 +17,11 @@ export default function Header() {
               <a href="/">
                 <li className="cursor poppins_regular_400">Home</li>
               </a>
-              <Link to="">
+              <Link to="/service">
                 <li className="cursor poppins_regular_400">Services</li>
+              </Link>
+              <Link to="/process">
+                <li className="cursor poppins_regular_400">Process</li>
               </Link>
               <Link to="">
                 <li className="cursor poppins_regular_400">About Us</li>
@@ -26,7 +29,11 @@ export default function Header() {
               <Link to="/login">
                 <li className="cursor poppins_regular_400">Login</li>
               </Link>
-              <BlueGhostBtn />
+              <Link to="/signup">
+                <li className="cursor poppins_regular_400">
+                  <BlueGhostBtn name="Sign Up" />
+                </li>
+              </Link>
             </ul>
           </div>
         </nav>

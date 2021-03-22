@@ -94,12 +94,26 @@
       margin-top: 5rem;
       height: 22.3rem;
     }
-    @include media('<=861px') {
-      margin-top: 3rem;
-      height: 15.75rem;
+    @include media('<=879px') {
+      margin-top: 6rem;
+      height: 29rem;
     }
-    @include media('<=658px') {
-      height: 14.5rem;
+    @include media('<=861px') {
+      margin-top: 6rem;
+      height: 28.9rem;
+    }
+
+    @include media('<=860px') {
+      margin-top: 7rem;
+      height: 32.7rem;
+    }
+    @include media('<=860px') {
+      margin-top: 7rem;
+      height: 32.7rem;
+    }
+    @include media('<=788px') {
+      margin-top: 3rem;
+      height: 12.55rem;
     }
 
     position: absolute;

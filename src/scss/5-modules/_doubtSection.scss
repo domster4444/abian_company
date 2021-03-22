@@ -17,11 +17,6 @@
 }
 
 #doubtSection {
-  width: 100%;
-  @include media('>=tablet') {
-    width: 60% !important;
-  }
-
   @include flexContainer;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +25,11 @@
     position: relative;
     z-index: 1;
     h4 {
+      margin: 1rem;
       font-size: 4rem;
+      @include media('<=phone') {
+        font-size: 2.5rem;
+      }
     }
   }
   #rightSection {
@@ -120,6 +119,7 @@
   position: absolute;
   width: 50vw;
   height: 50vh;
+  left: 18rem;
   transform-origin: 50% 50%;
   transition: all 6s linear;
 }

@@ -33,6 +33,8 @@
 @import '4-layout/toolbar';
 
 //? 5-MODULES
+@import '5-modules/serviceFigureSection';
+@import '5-modules/offerCard';
 @import '5-modules/modelBtn';
 @import '5-modules/videoModal';
 @import '5-modules/groupCompaniesListSection';
@@ -53,6 +55,8 @@
 @import '5-modules/serviceSection';
 
 //? 5-PAGES
+@import '6-pages/service';
+@import '6-pages/pageNotFound';
 @import '6-pages/loginpage';
 @import '6-pages/homepage';
 @import '6-pages/aboutuspage';

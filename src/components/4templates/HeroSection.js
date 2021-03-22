@@ -8,47 +8,50 @@ import hand from '../../img/hand.png';
 
 import VideoModalBtn from '../1atoms/VideoModalBtn';
 
+import { MdPlayArrow } from 'react-icons/md';
 export default function HeroSection() {
   return (
     <>
-      <section className="containerCenter" id="centerSingleBlock">
-        <div id="heroSection" className="centerContainer">
-          <article id="leftBlock">
-            <h1 className="poppins_light_300">
-              Let's find you
-              <br />
-              the
-              <span className="poppins_semibold_600"> Best Services</span>
-            </h1>
+      <div className="containerCenter">
+        <div className="contentBlock">
+          <div id="heroSection" className="centerContainer">
+            <article id="leftBlock">
+              <h1 className="poppins_light_300">
+                Let's find you
+                <br />
+                the
+                <span className="poppins_semibold_600"> Best Services</span>
+              </h1>
 
-            <div className="flexContainer">
-              <FeaTag logo={todo} />
-              <FeaTag logo={hand} />
-            </div>
-          </article>
-          <article id="rightBlock">
-            <div id="left">
-              <GhostTag />
+              <div className="flexContainer">
+                <FeaTag logo={todo} />
+                <FeaTag logo={hand} />
+              </div>
+            </article>
+            <article id="rightBlock">
+              <div id="left">
+                <GhostTag />
 
-              <h3 className="poppins_regular_400">
-                A commitment
-                <br /> to our customers
-              </h3>
+                <h3 className="poppins_regular_400">
+                  A commitment
+                  <br /> to our customers
+                </h3>
 
-              <button
-                className="blueBtn cursor hint--right hint--rounded hint--bounce"
-                aria-label="Thank you!"
-              >
-                Know more
-              </button>
-              <VideoModalBtn />
-            </div>
-            <div id="right">
-              <img src={heroSectionIllustrator} alt="" />
-            </div>
-          </article>
+                <button
+                  className="blueBtn cursor hint--right hint--rounded hint--bounce"
+                  aria-label="Thank you!"
+                >
+                  Know more
+                </button>
+                <VideoModalBtn />
+              </div>
+              <div id="right">
+                <img src={heroSectionIllustrator} alt="" />
+              </div>
+            </article>
+          </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }

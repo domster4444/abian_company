@@ -17,7 +17,10 @@
     }
     #rightSection {
       img {
-        height: 5rem;
+        height: 4rem;
+        @include media('<=900px') {
+          height: 2rem;
+        }
       }
       .companyCard {
         margin-left: 2rem;

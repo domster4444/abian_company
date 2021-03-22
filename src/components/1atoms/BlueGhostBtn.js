@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function BlueGhostBtn() {
+export default function BlueGhostBtn(props) {
   return (
     <>
       <li id="blueGhostBtn" className="cursor">
-        Sign in
+        {props.name}
       </li>
     </>
   );

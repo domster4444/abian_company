@@ -13,7 +13,8 @@
     margin-left: 50%;
     transform: translateX(-50%);
     max-width: 90rem;
-    background-color: rgb(41, 41, 41);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
   }
   h1 {
     margin-left: 25%;
@@ -22,17 +23,26 @@
   }
 
   color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: #09142e;
   footer {
     padding-top: 0.6rem;
-    @include flex(center, center);
+
+    @include media('>=979px') {
+      @include flex(center, '');
+    }
+    @include flex('', center);
+
     flex-wrap: wrap;
     section {
       @include media('<=979px') {
         margin: 3rem 12rem 0rem 12rem;
       }
+      @include media('<=tablet') {
+        margin: 3rem 4rem 0rem 4rem;
+      }
       position: relative;
       margin: 3rem 8rem 0rem 8rem;
+
       .logo {
         img {
           width: 3.7rem;
