@@ -21,8 +21,16 @@ export default function FeatCarousel() {
         data-flickity='{ "freeScroll": true, "wrapAround": true,"prevNextButtons": false,"autoPlay": 1500 }'
       >
         <div className="carousel-cell" id="firstCard">
-          <img className="mainCarouselIcons" src={carouselIcon1} alt="" />
-          <img className="subCarouselIcons" src={subCarouselIcon1} alt="" />
+          <img
+            className="mainCarouselIcons"
+            src={carouselIcon1}
+            alt="representation of "
+          />
+          <img
+            className="subCarouselIcons"
+            src={subCarouselIcon1}
+            alt="representation of "
+          />
 
           <h1>
             Access From Your
@@ -31,29 +39,61 @@ export default function FeatCarousel() {
           </h1>
         </div>
         <div className="carousel-cell" id="secondCard">
-          <img className="mainCarouselIcons" src={carouselIcon2} alt="" />
-          <img className="subCarouselIcons" src={subCarouselIcon2} alt="" />
+          <img
+            className="mainCarouselIcons"
+            src={carouselIcon2}
+            alt="representation of "
+          />
+          <img
+            className="subCarouselIcons"
+            src={subCarouselIcon2}
+            alt="representation of "
+          />
           <h1>
             High Quality Services
             <br /> With Low Price
           </h1>
         </div>
         <div className="carousel-cell" id="thirdCard">
-          <img className="mainCarouselIcons" src={carouselIcon3} alt="" />
-          <img className="subCarouselIcons" src={subCarouselIcon3} alt="" />
+          <img
+            className="mainCarouselIcons"
+            src={carouselIcon3}
+            alt="representation of "
+          />
+          <img
+            className="subCarouselIcons"
+            src={subCarouselIcon3}
+            alt="representation of "
+          />
           <h1>
             Instant Customer Care
             <br /> Support On Demand
           </h1>
         </div>
         <div className="carousel-cell" id="fourthCard">
-          <img className="mainCarouselIcons" src={carouselIcon4} alt="" />
-          <img className="subCarouselIcons" src={subCarouselIcon4} alt="" />
+          <img
+            className="mainCarouselIcons"
+            src={carouselIcon4}
+            alt="representation of "
+          />
+          <img
+            className="subCarouselIcons"
+            src={subCarouselIcon4}
+            alt="representation of "
+          />
           <h1>Secure & Trust Worthy</h1>
         </div>
         <div className="carousel-cell" id="fifthCard">
-          <img className="mainCarouselIcons" src={carouselIcon5} alt="" />
-          <img className="subCarouselIcons" src={subCarouselIcon5} alt="" />
+          <img
+            className="mainCarouselIcons"
+            src={carouselIcon5}
+            alt="representation of "
+          />
+          <img
+            className="subCarouselIcons"
+            src={subCarouselIcon5}
+            alt="representation of "
+          />
           <h1>50+ Services To Solve Your Problems</h1>
         </div>
       </div>

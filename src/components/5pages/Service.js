@@ -10,22 +10,26 @@ import applicationUI from '../../img/illustrators/applicationUI.png';
 import diamondBottom from '../../img/illustrators/threeDiamondBottomLeft.png';
 
 import dottedDesign from '../../img/illustrators/dottedDesign.png';
-import hexagon from '../../img/generalImage/hexagon.png';
 import savingUI1 from '../../img/generalImage/saving1.png';
-import savingUI2 from '../../img/generalImage/saving2.png';
+
+import BestFeatureSection from '../1atoms/BestFeatureSection';
+
+import ServiceDescriptionType1 from '../2molecules/ServiceDescriptionType1';
+import ServiceDescriptionType2 from '../2molecules/ServiceDescriptionType2';
+
 export default function Service() {
   return (
     <>
       <main id="servicePageMain">
-        <img src={dottedDesign} className="dottedDesign" alt="" />
+        <img src={dottedDesign} className="dottedDesign" alt="an illustrator" />
         <section className="offerCardsSection">
           <div className="containerCenter">
             <div className="contentBlock">
-              <OfferCard circleColor="blueCircle" title=" Color 1 " />
-              <OfferCard circleColor="redCircle" title="Color 2" />
-              <OfferCard circleColor="greenCircle" title="Color 3" />
-              <OfferCard circleColor="purpleCircle" title="Color 4" />
-              <OfferCard circleColor="goldCircle" title="Color 5" />
+              <OfferCard circleColor="blueCircle" title="Reliable" />
+              <OfferCard circleColor="redCircle" title="User Friendly" />
+              <OfferCard circleColor="greenCircle" title="Easy to use" />
+              <OfferCard circleColor="purpleCircle" title="Modern UI" />
+              <OfferCard circleColor="goldCircle" title="Secure" />
             </div>
           </div>
         </section>
@@ -77,48 +81,38 @@ export default function Service() {
           />
           <div className="containerCenter">
             <div className="contentBlock">
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="blueCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="redCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="greenCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="purpleCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="goldCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
-              <div className="bestFeatureCards cursor">
-                <div className="iconContainer">
-                  <div className="pinkCircle"></div>
-                </div>
-                <h1>Flexible & Easy</h1>
-                <p>Here you can find best services to use onlne at home</p>
-              </div>
+              <BestFeatureSection
+                color="blueCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
+              <BestFeatureSection
+                color="redCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
+              <BestFeatureSection
+                color="greenCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
+
+              <BestFeatureSection
+                color="purpleCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
+
+              <BestFeatureSection
+                color="goldCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
+              <BestFeatureSection
+                color="pinkCircle"
+                title="Flexible & Easy"
+                detail="Here you can find best services to use onlne at home"
+              />
             </div>
           </div>
         </section>
@@ -130,160 +124,67 @@ export default function Service() {
           </div>
         </section>
 
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection1"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon blueHexagon"> </div>
-
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+        <ServiceDescriptionType1
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection2"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon redHexagon"> </div>
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="redHexagon"
+        ></ServiceDescriptionType1>
+        <ServiceDescriptionType2
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection1"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon greenHexagon"> </div>
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="blueHexagon"
+        ></ServiceDescriptionType2>
+        <ServiceDescriptionType1
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="greenHexagon"
+        ></ServiceDescriptionType1>
 
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection2"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon purpleHexagon"> </div>
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+        <ServiceDescriptionType2
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
-
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection1"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon goldHexagon"> </div>
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="purpleHexagon"
+        ></ServiceDescriptionType2>
+        <ServiceDescriptionType1
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
-
-        <section
-          className="serviceDescriptionSection"
-          id="serviceDescriptionSection2"
-        >
-          <div className="leftSection">
-            <img className="savingUI1" src={savingUI1} alt="" />
-            <img className="savingUI2" src={savingUI2} alt="" />
-          </div>
-          <div className="rightSection">
-            <div class="hexagon pinkHexagon"> </div>
-            <h1>
-              We save client's
-              <br />
-              money in various services
-            </h1>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="goldHexagon"
+        ></ServiceDescriptionType1>
+        <ServiceDescriptionType2
+          title="we save client's money in various services"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
               maiores assumenda rem quibusdam fugiat corrupti eum delectus
               magni. Corrupti alias voluptatem dolorem iusto quia suscipit magni
               dolores vitae consequatur atque pariatur exercitationem saepe,
-              sed, voluptas voluptate!
-            </p>
-          </div>
-        </section>
+              sed, voluptas voluptate!"
+          image={savingUI1}
+          hexagon="pinkHexagon"
+        ></ServiceDescriptionType2>
       </main>
     </>
   );

@@ -20,7 +20,7 @@
     }
     #menuBlock {
       ul {
-        @include media('<=tablet') {
+        @include media('<=788px') {
           display: none;
         }
         justify-content: center;

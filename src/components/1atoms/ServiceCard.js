@@ -6,7 +6,7 @@ export default function ServiceCard(props) {
       <div className="cursor poppins_regular_400" id="serviceCard">
         {/* -------------------------SVG---------------------  */}
 
-        <img src={props.logo} alt="" />
+        <img src={props.logo} alt="representation of logo" />
 
         {/* -------------------------SVG---------------------  */}
 

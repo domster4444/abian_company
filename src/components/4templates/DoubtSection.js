@@ -77,7 +77,7 @@ export default function DoubtSection() {
         <div id="rightSection">
           <div className="upperBlock">
             <div className="doutCards" id="card1">
-              <img src={card1Image} alt="" />
+              <img src={card1Image} alt="representation of icon" />
               <h4>Build With Latest Technology</h4>
 
               <p className="poppins_light_300">
@@ -85,7 +85,7 @@ export default function DoubtSection() {
               </p>
             </div>
             <div className="doutCards" id="card2">
-              <img src={card2Image} alt="" />
+              <img src={card2Image} alt="representation of icon" />
               <h4>People Trust Us</h4>
               <p className="poppins_light_300">
                 People trust us as we provide secure services to our clients.
@@ -94,7 +94,7 @@ export default function DoubtSection() {
           </div>
           <div className="upperBlock">
             <div className="doutCards" id="card3">
-              <img src={card3Image} alt="" />
+              <img src={card3Image} alt="representation of icon" />
               <h4>Less Price</h4>
               <p className="poppins_light_300">
                 All our services are up of high quality and promising low
@@ -102,7 +102,7 @@ export default function DoubtSection() {
               </p>
             </div>
             <div className="doutCards" id="card4">
-              <img src={card4Image} alt="" />
+              <img src={card4Image} alt="representation of icon" />
               <h4>Quality Services</h4>
               <p className="poppins_light_300">
                 Our Team are 24/7 a day available to reach out to you for help.

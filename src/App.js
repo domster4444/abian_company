@@ -9,7 +9,9 @@ import LoginPage from './components/5pages/LoginPage';
 import ForgotPasswordPage from './components/5pages/ForgotPasswordPage';
 import PageNotFound from './components/5pages/PageNotFound';
 import Service from './components/5pages/Service.js';
-
+import Process from './components/5pages/Process.js';
+import AboutUs from './components/5pages/AboutUs.js';
+import Pricing from './components/5pages/Pricing';
 function App() {
   return (
     <div>
@@ -21,6 +23,9 @@ function App() {
         <Route path="/forgotpassword" component={ForgotPasswordPage} />
         <Route path="/404" component={PageNotFound} />
         <Route path="/service" component={Service} />
+        <Route path="/pricing" component={Pricing} />
+        <Route path="/process" component={Process} />
+        <Route path="/aboutus" component={AboutUs} />
       </Router>
     </div>
   );

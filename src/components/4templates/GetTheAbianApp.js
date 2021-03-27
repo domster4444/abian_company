@@ -32,8 +32,16 @@ export default function GetTheAbianApp() {
           <button className="appleStoreBtnBg cursor"></button>
         </div>
         <div id="rightSection">
-          <img src={phoneImage1} id="phone" alt="" />
-          <img src={phoneImage2} id="tablet" alt="" />
+          <img
+            src={phoneImage1}
+            id="phone"
+            alt=" representaion of phone mockup"
+          />
+          <img
+            src={phoneImage2}
+            id="tablet"
+            alt=" representaion of phone mockup"
+          />
         </div>
       </section>
     </main>

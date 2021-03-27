@@ -9,31 +9,47 @@ export default function Header() {
         <nav>
           <a href="/">
             <div id="logoBlock">
-              <img src={logo} alt="" />
+              <img src={logo} alt="representation of logo" />
             </div>
           </a>
           <div id="menuBlock">
             <ul>
-              <a href="/">
-                <li className="cursor poppins_regular_400">Home</li>
-              </a>
-              <Link to="/service">
-                <li className="cursor poppins_regular_400">Services</li>
-              </Link>
-              <Link to="/process">
-                <li className="cursor poppins_regular_400">Process</li>
-              </Link>
-              <Link to="">
-                <li className="cursor poppins_regular_400">About Us</li>
-              </Link>
-              <Link to="/login">
-                <li className="cursor poppins_regular_400">Login</li>
-              </Link>
-              <Link to="/signup">
+              <li className="cursor poppins_regular_400">
+                <a href="/">Home</a>
+              </li>
+
+              <li className="cursor poppins_regular_400">
+                <Link to="/service">Services</Link>
+              </li>
+
+              <li className="cursor poppins_regular_400">
+                <Link to="/pricing">Pricing</Link>
+              </li>
+              {/* <Link to="/process">
                 <li className="cursor poppins_regular_400">
-                  <BlueGhostBtn name="Sign Up" />
+                
+                
+                
+                
+                
+                Process
+                
+                
+                
+                
                 </li>
-              </Link>
+              </Link> */}
+              <li className="cursor poppins_regular_400">
+                <Link to="/aboutus">About Us</Link>
+              </li>
+              <li className="cursor poppins_regular_400">
+                <Link to="/login">Login</Link>
+              </li>
+              <li className="cursor poppins_regular_400">
+                <Link to="/signup">
+                  <BlueGhostBtn name="Sign Up" />
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>

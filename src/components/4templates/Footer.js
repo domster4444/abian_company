@@ -11,7 +11,10 @@ export default function Footer() {
         <footer>
           <section>
             <div className="logo">
-              <img src={umbrella} alt="" />
+              <img
+                src={umbrella}
+                alt="representation of suitable footer logo"
+              />
             </div>
 
             <h3 className="poppins_medium_500"> General</h3>
@@ -37,7 +40,7 @@ export default function Footer() {
           </section>
           <section>
             <div className="logo">
-              <img src={reward} alt="" />
+              <img src={reward} alt="representation of suitable footer logo" />
             </div>
             <h3 className="poppins_medium_500"> About Us</h3>
             <ul>
@@ -64,7 +67,7 @@ export default function Footer() {
           </section>
           <section>
             <div className="logo">
-              <img src={shield} alt="" />
+              <img src={shield} alt="representation of suitable footer logo" />
             </div>
             <h3 className="poppins_medium_500"> Services</h3>
 
@@ -102,7 +105,7 @@ export default function Footer() {
           </section>
           <section>
             <div className="logo">
-              <img src={scan} alt="" />
+              <img src={scan} alt="representation of suitable footer logo" />
             </div>
             <h3 className="poppins_medium_500"> Contacts</h3>
             <ul>

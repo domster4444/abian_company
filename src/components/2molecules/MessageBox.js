@@ -40,7 +40,7 @@ export default function MessageBox() {
             <li>
               <div className="message receivedMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -58,7 +58,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -75,7 +75,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -92,7 +92,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -109,7 +109,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -126,7 +126,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -143,7 +143,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -160,7 +160,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -177,7 +177,7 @@ export default function MessageBox() {
             <li>
               <div className="message sentMessage">
                 <div className="left">
-                  <img src={senderImage} alt="" />
+                  <img src={senderImage} alt=" potrait of face of sender" />
                 </div>
                 <div className="right">
                   <div className="msg poppins_regular_400">
@@ -200,10 +200,10 @@ export default function MessageBox() {
               placeholder="write message"
             />
             <a href="https://google.com">
-              <img src={sendLogo} alt=" add file" />
+              <img src={sendLogo} alt="add file" />
             </a>
             <a href="https://google.com">
-              <img src={addFileLogo} alt=" add file" />
+              <img src={addFileLogo} alt="add file" />
             </a>
           </form>
         </section>

@@ -8,14 +8,14 @@
   @include media('<=1466px') {
     font-size: 8px;
   }
-  @include media('<=1392px') {
+  @include media('<=967px') {
     font-size: 6.5px;
   }
   @include media('<=860px') {
     font-size: 5.8px;
   }
   @include media('<=788px') {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 .cursor {
@@ -55,4 +55,13 @@ a {
 }
 html {
   scroll-behavior: smooth;
+}
+body {
+  // background-position: center;
+  // background-size: cover;
+  // background-image: url(../img/generalImage/backgroundI.jpg);
+}
+
+button {
+  outline: none;
 }

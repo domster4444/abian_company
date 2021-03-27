@@ -14,31 +14,18 @@ export default function ServiceSection() {
         <a href="https://google.com">
           <ServiceCard
             logo={serviceLogo1}
-            offername="Rent A Room"
-          ></ServiceCard>
-        </a>
-
-        <a href="https://google.com">
-          <ServiceCard
-            logo={serviceLogo2}
-            offername="Order Online"
-          ></ServiceCard>
-        </a>
-        <a href="https://google.com">
-          <ServiceCard
-            logo={serviceLogo3}
-            offername="Book Appointment"
-          ></ServiceCard>
-        </a>
-        <a href="https://google.com">
-          <ServiceCard
-            logo={serviceLogo4}
             offername="Call Ambulance"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo5}
+            logo={serviceLogo2}
+            offername="Call Ambulance"
+          ></ServiceCard>
+        </a>
+        <a href="https://google.com">
+          <ServiceCard
+            logo={serviceLogo3}
             offername="School Software"
           ></ServiceCard>
         </a>
@@ -47,19 +34,19 @@ export default function ServiceSection() {
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
+            logo={serviceLogo4}
             offername="Rent A Room"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
+            logo={serviceLogo5}
             offername="Rent A Room"
           ></ServiceCard>
         </a>
         <a href="https://google.com">
           <ServiceCard
-            logo={serviceLogo1}
+            logo={serviceLogo6}
             offername="Rent A Room"
           ></ServiceCard>
         </a>

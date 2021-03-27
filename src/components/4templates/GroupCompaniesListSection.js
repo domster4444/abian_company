@@ -11,16 +11,28 @@ export default function GroupCompaniesListSection() {
 
         <div id="rightSection">
           <div className="companyCard poppins_light_300">
-            <img src={firstGroupCompany} alt="" />
+            <img
+              src={firstGroupCompany}
+              alt="representaion of company card logo"
+            />
           </div>
           <div className="companyCard poppins_light_300">
-            <img src={secondGroupCompany} alt="" />
+            <img
+              src={secondGroupCompany}
+              alt="representaion of company card logo"
+            />
           </div>
           <div className="companyCard poppins_light_300">
-            <img src={firstGroupCompany} alt="" />
+            <img
+              src={firstGroupCompany}
+              alt="representaion of company card logo"
+            />
           </div>
           <div className="companyCard poppins_light_300">
-            <img src={secondGroupCompany} alt="" />
+            <img
+              src={secondGroupCompany}
+              alt="representaion of company card logo"
+            />
           </div>
         </div>
       </div>

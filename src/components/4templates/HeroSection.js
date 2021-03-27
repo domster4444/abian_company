@@ -8,7 +8,6 @@ import hand from '../../img/hand.png';
 
 import VideoModalBtn from '../1atoms/VideoModalBtn';
 
-import { MdPlayArrow } from 'react-icons/md';
 export default function HeroSection() {
   return (
     <>
@@ -46,7 +45,7 @@ export default function HeroSection() {
                 <VideoModalBtn />
               </div>
               <div id="right">
-                <img src={heroSectionIllustrator} alt="" />
+                <img src={heroSectionIllustrator} alt="an illustrator" />
               </div>
             </article>
           </div>

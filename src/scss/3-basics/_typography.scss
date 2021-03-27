@@ -49,6 +49,10 @@
   @extend .poppins_base;
   font-weight: 600;
 }
+.poppins_bold_700 {
+  @extend .poppins_base;
+  font-weight: 700;
+}
 
 // sofia base
 
@@ -70,4 +74,9 @@
 .Sofia_Regular,
 .Sofia_SemiBold {
   font-weight: inherit;
+}
+
+.numberFont {
+  font-family: 'Train One', cursive;
+  font-weight: 400;
 }

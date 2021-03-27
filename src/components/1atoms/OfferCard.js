@@ -4,7 +4,7 @@ import React from 'react';
 export default function OfferCard(props) {
   return (
     <main id="offerCardMain">
-      <div class="offercard cursor">
+      <div className="offercard cursor">
         <div className="iconContainer">
           <div className={props.circleColor}>
             {/* ----LOGO--------- */}
