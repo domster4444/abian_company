@@ -50,9 +50,8 @@
 }
 
 .close {
+  padding: 0 !important;
   margin-top: -2rem;
-  border-radius: 50%;
-  padding: 0.4rem 1rem 0.2rem 1rem;
   background: black;
   position: relative;
   z-index: 10000;
@@ -112,8 +111,8 @@
       height: 32.7rem;
     }
     @include media('<=788px') {
-      margin-top: 3rem;
-      height: 12.55rem;
+      margin-top: 4.2rem;
+      height: 18.8rem;
     }
 
     position: absolute;

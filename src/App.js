@@ -12,6 +12,7 @@ import Service from './components/5pages/Service.js';
 import Process from './components/5pages/Process.js';
 import AboutUs from './components/5pages/AboutUs.js';
 import Pricing from './components/5pages/Pricing';
+import OurTeam from './components/5pages/OurTeam';
 function App() {
   return (
     <div>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/pricing" component={Pricing} />
         <Route path="/process" component={Process} />
         <Route path="/aboutus" component={AboutUs} />
+        <Route path="/ourteam" component={OurTeam} />
       </Router>
     </div>
   );

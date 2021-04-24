@@ -43,6 +43,9 @@ export default function Header() {
                 <Link to="/aboutus">About Us</Link>
               </li>
               <li className="cursor poppins_regular_400">
+                <Link to="/ourteam">Our Team</Link>
+              </li>
+              <li className="cursor poppins_regular_400">
                 <Link to="/login">Login</Link>
               </li>
               <li className="cursor poppins_regular_400">

@@ -1,3 +1,16 @@
+.joinBtn {
+  margin: 2rem;
+  border-radius: 4rem;
+  font-size: 2rem;
+  background: transparent;
+  padding: 1rem 4rem;
+  border: 1px solid #0065ff;
+  color: #0065ff;
+  transition: all 300ms ease-in-out;
+  &:active {
+    transform: scale(1.1);
+  }
+}
 //? Page Not Found Btn
 /*Button Two*/
 .button-two {

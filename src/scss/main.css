@@ -1278,6 +1278,21 @@ button {
   outline: none;
 }
 
+.joinBtn {
+  margin: 2rem;
+  border-radius: 4rem;
+  font-size: 2rem;
+  background: transparent;
+  padding: 1rem 4rem;
+  border: 1px solid #0065ff;
+  color: #0065ff;
+  transition: all 300ms ease-in-out;
+}
+
+.joinBtn:active {
+  transform: scale(1.1);
+}
+
 /*Button Two*/
 .button-two {
   border-radius: 4px;
@@ -2119,9 +2134,8 @@ a:visited {
 }
 
 .close {
+  padding: 0 !important;
   margin-top: -2rem;
-  border-radius: 50%;
-  padding: 0.4rem 1rem 0.2rem 1rem;
   background: black;
   position: relative;
   z-index: 10000;
@@ -2203,8 +2217,8 @@ a:visited {
 
 @media (max-width: 788px) {
   #modalBody video {
-    margin-top: 3rem;
-    height: 12.55rem;
+    margin-top: 4.2rem;
+    height: 18.8rem;
   }
 }
 
@@ -3198,6 +3212,188 @@ body::-webkit-scrollbar-thumb {
 #serviceSection .contentBlock {
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#ourTeamPage #teamInfoSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ourTeamPage #teamInfoSection .card {
+  margin: 2rem;
+  padding: 2rem 0.5rem;
+  min-width: 35rem;
+  max-width: 50rem;
+  display: flex;
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision {
+  width: 10rem;
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision #firstTeamMember {
+  background-image: url(../img/ourTeam/kapoor.png);
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision #secondTeamMember {
+  background-image: url(../img/ourTeam/kritika.PNG);
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision #thirdTeamMember {
+  background-image: url(../img/ourTeam/kshitiz.png);
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision #fourthTeamMember {
+  background-image: url(../img/ourTeam/kizz.PNG);
+}
+
+#ourTeamPage #teamInfoSection .card .leftDivision .sphereDivision .teamMember {
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision {
+  padding: 0rem 1rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision p {
+  color: #4d4c4e;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision .container {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision .container .left .occupation {
+  color: #b1afaf;
+  font-size: 1.2rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision .container .right {
+  font-size: 1.5rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision .container .right a {
+  color: #8647e4;
+  font-size: 1.5rem;
+}
+
+#ourTeamPage #teamInfoSection .card .rightDivision .container .right svg {
+  height: 1rem;
+}
+
+#ourTeamPage #sectionTwo {
+  width: 100%;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#ourTeamPage #sectionTwo img {
+  height: 25rem;
+}
+
+#ourTeamPage #sectionTwo #rightDivision h3 {
+  margin: 2rem 0rem;
+  font-size: 2.8rem;
+}
+
+#ourTeamPage #sectionTwo #rightDivision p {
+  font-size: 2.5rem;
+}
+
+#ourTeamPage #heroSection {
+  text-align: center;
+  height: 72rem;
+  display: flex;
+  justify-content: center;
+  margin-top: -8rem;
+  background-image: url(../img/ourTeam/HeroSectionBg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (min-width: 789px) {
+  #ourTeamPage #heroSection {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 649px) {
+  #ourTeamPage #heroSection {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 789px) {
+  #ourTeamPage #heroSection h1 {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 789px) {
+  #ourTeamPage #heroSection h1 {
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 937px) {
+  #ourTeamPage #heroSection h1 {
+    margin-top: 20rem;
+  }
+}
+
+@media (max-width: 539px) {
+  #ourTeamPage #heroSection h1 {
+    margin-top: 26rem;
+  }
+}
+
+@media (max-width: 629px) {
+  #ourTeamPage #heroSection {
+    height: 60rem;
+  }
+}
+
+@media (max-width: 936px) {
+  #ourTeamPage #heroSection {
+    height: 50rem;
+  }
+}
+
+#ourTeamPage #heroSection div {
+  margin-top: 8rem;
+}
+
+@media (max-width: 539px) {
+  #ourTeamPage #heroSection {
+    margin-top: -15rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  #ourTeamPage hr {
+    width: 60%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
 }
 
 .processPageMain1, .processPageMain2, .processPageMain22, .processPageMain4 {
